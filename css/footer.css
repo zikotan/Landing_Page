@@ -1,0 +1,124 @@
+/* footer */
+/* works only for inline-block and block (inline-block is better) and use classes */
+@keyframes heartbeatIcons {
+  0% {
+    transform: scale(0.8);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+@keyframes heartbeatPrivacy {
+  0% {
+    box-shadow: 0 -10px rgb(0, 17, 255);
+  }
+
+  100% {
+    box-shadow: 0 -10px red;
+  }
+}
+
+footer * {
+  color: white;
+}
+
+footer {
+  bottom: 0;
+  background-color: rgb(255, 150, 0);
+  margin: 5px 0px 0px 0px;
+  text-align: center;
+  padding: 0;
+}
+
+footer div {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+footer div a {
+  color: blue;
+  font-weight: 500;
+  background-color: rgb(255, 150, 0);
+  padding: 5px 15px;
+  border-radius: 25px;
+  transition: 0.5s ease;
+  border: solid 1px rgb(255, 150, 0);
+  padding: 8.5px;
+  padding-top: 10px;
+}
+
+footer div a i {
+  font-size: 130%;
+  width: 28px;
+  height: 28px;
+  padding-top: 4px;
+  border-radius: 25%;
+  transition: 0.6s ease;
+}
+
+footer div a .fa-whatsapp,
+footer div a .fa-instagram {
+  animation: heartbeatIcons 2s infinite;
+}
+
+footer div a *:hover, 
+footer #gmail:hover {
+  animation: heartbeatIcons 0s infinite;
+}
+
+footer div .privacy {
+  padding: 0px 10px 3px 10px;
+  background: linear-gradient(to right, blue, red);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: heartbeatPrivacy 0.5s infinite;
+}
+
+footer div .privacy:hover {
+  background: green;
+  background-clip: text;
+  animation: heartbeatPrivacy 0s infinite;
+  box-shadow: 0 -10px green;
+}
+
+footer .fa-whatsapp {
+  background-color: #00ff00;
+}
+
+footer .fa-envelope {
+  background: linear-gradient(to right, blue, red, orange, green);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer #gmail {
+  display: inline-block;
+  background-color: white;
+  border-radius: 25%;
+  padding: 0px 2.5px 0px 2.5px;
+  animation: heartbeatIcons 2s infinite;
+}
+
+footer .fa-instagram {
+  background: linear-gradient(to right, #833AB4, #FD1D1D);
+}
+
+footer p {
+  color: brown;
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.copy {
+  font-size: larger;
+  color: brown;
+}

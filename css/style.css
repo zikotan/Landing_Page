@@ -1,0 +1,167 @@
+/* index */
+.aboutInfo {
+  min-width: 295px;
+  width: 95%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
+  padding-bottom: 5px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px orange;
+}
+
+.aboutInfo h3 {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 15px;
+  background-color: white;
+  color: brown;
+}
+
+.aboutInfo h6 {
+  text-align: center;
+  border: none;
+  padding-bottom: 25px;
+}
+
+.aboutInfo table {
+  width: 99%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.aboutInfo table th {
+  font-size: large;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(255, 132, 0);
+  color: white;
+  border-radius: 10px;
+  animation: heartbeat0 45s infinite;
+}
+
+.aboutInfo table td {
+  padding-top: 8px;
+  padding-bottom: 0px;
+  width: 50%;
+}
+
+/* +++++++++++++++++++++++++++++++++ */
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: Rounded corners for the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for image */
+  margin-bottom: 25px;
+  margin-top: 0px;
+}
+
+.imgF {
+  margin-bottom: 50px;
+}
+
+/* submit */
+.submit {
+  text-align: center;
+  display: block;
+}
+
+.aboutInfo  button {
+  width: 150px;
+  height: 35px;
+  max-width: 260px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  cursor: pointer;
+  animation: heartbeatBtn 2s linear infinite;
+}
+
+.aboutInfo button:hover {
+  background-color: rgb(255, 125, 0);
+  animation: heartbeatBtn 0s linear infinite;
+}
+
+.aboutInfo .submit a{
+  color: white;
+  text-decoration: none;
+
+}
+
+/* Keyframes for the fiery effect */
+@keyframes fire {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hr {
+  height: 5px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  background: linear-gradient(
+    to right,
+    #ff0000,
+    #ff6600,
+    #ffcc00,
+    #ff6600,
+    #ff0000
+  );
+  background-size: 200% auto;
+  animation: fire 2s linear infinite;
+}
+
+.aboutSection {
+  padding: 25px;
+  padding-top: 5px;
+}
+
+.aboutSection p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #343333;
+}
+
+.aboutSection strong {
+  color: #000;
+}
+
+.aboutSection ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.aboutSection .fa-brands,
+.aboutSection .fab {
+  font-size: 160%;
+  width: 28px;
+  height: 28px;
+  transition: 0.6s ease;
+  color: #007bff;
+  animation: heartbeatIcons 2s infinite;
+  display: inline-block;
+}
+
+.aboutSection .fa-brands:hover,
+.aboutSection .fab:hover {
+  animation: heartbeatIcons 0s infinite;
+}
+
+.aboutSection .fa-square-github {
+  color: black;
+}
+
+.aboutSection .prifiles {
+  margin-right: 25px;
+}
