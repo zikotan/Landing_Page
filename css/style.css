@@ -165,3 +165,19 @@ img {
 .aboutSection .prifiles {
   margin-right: 25px;
 }
+
+
+.videoSection {
+  text-align: center;
+}
+
+.videoSection iframe {
+  width: 92%;
+  max-width: 800px;
+  height: 450px;
+}
+
+.videoSection h3 {
+  margin-bottom: 20px;
+  
+}

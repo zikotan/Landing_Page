@@ -43,7 +43,7 @@ nav .container-fluid {
   min-width: 170px;
   width: 95%;
   max-width: 700px;
-  margin: 0.1px auto;
+  margin: 0.3px auto;
   padding: 4px 0px;
   border-radius: 25px;
   z-index: 1000;
@@ -60,11 +60,12 @@ nav .container-fluid:hover{
 
 nav .navbar-toggler {
   margin: 0px 25px;
+  padding: 2px 0px;
 }
 
 nav button i {
   border: solid 1px white;
-  padding: 5px 10px;
+  padding: 3px 7.5px;
   margin-right: 0px;
   border-radius: 5px;
   transition: 0.5s ease;
@@ -80,10 +81,6 @@ nav .container-fluid a {
   color: white;
 }
 
-nav .navbar-toggler {
-  padding: 5px 0px;
-}
-
 nav ul {
   margin: 0px 10px;
 }
@@ -95,7 +92,7 @@ nav i {
 
 nav .nav-link {
   margin: 0;
-  padding: 3px 0px;
+  padding: 0px 0px;;
 }
 
 nav .nav-item {
@@ -112,8 +109,9 @@ nav li:hover {
 }
 
 nav .navbar-brand {
+  font-size: 100%;
   margin-left: 10px;
-  padding: 1px 15px;
+  padding: 0px 15px;
   padding-bottom: 4px;
   border-radius: 25px;
   transition: 0.5s ease;
